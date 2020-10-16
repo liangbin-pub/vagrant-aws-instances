@@ -1,0 +1,14 @@
+---
+author: "@liangbin"
+user: "ubuntu"
+region: "us-east-2"
+ami-us-east-2: "ami-0e82959d4ed12de3f"
+ami-us-west-1: "ami-03fac5402e10ea93b"
+security_groups: "default"
+instances: 
+  - name: "zeta-01"
+    type: "t2.2xlarge"
+  - name: "zeta-02"
+    type: "t2.2xlarge"
+  - name: "zeta-03"
+    type: "t2.2xlarge"
